@@ -54,6 +54,26 @@ downloader(){
 		curl -s $geturl -o "$Title.mp4"
 	fi
 }
+cat << "EOF"
+                      .".
+                     /  |
+                    /  /
+                   / ,"
+       .-------.--- /
+      "._ __.-/ o. o\
+         "   (    Y  )
+              )     /
+             /     (
+            /       Y
+        .-"         |
+       /  _     \    \
+      /    `. ". ) /' )
+     Y       )( / /(,/
+    ,|      /     )
+   ( |     /     /
+    " \_  (__   (__        [Youtube Video Downloader - By Jasmine]
+        "-._,)--._,)       [Thanks To Archie Rythm]
+EOF
 echo ""
 read -p "List URL Youtube : " listna;
 echo "Resution List : "
